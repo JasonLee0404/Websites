@@ -1,0 +1,109 @@
+
+@import 'https://fonts.googleapis.com/css?family=Staatliches';
+
+
+body {
+	background-color: cadetblue;
+}
+
+.wrapper {
+    /*border: 1px black solid;*/
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	font-family: 'Staatliches', cursive;
+	padding:10px 0;
+	text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    background-color: azure;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main {
+    width: 100%;
+}
+
+#first {
+    background-color: #DDD;
+    padding: 5px;
+}
+
+#second {
+    background-color: white;
+    padding: 5px;
+}
+
+footer {
+	background-color: #222;
+	text-align: center;
+	padding-top: 35px;
+	color: #CCC;
+}
+
+/*break points for screen sizes*/
+@media screen and (max-width: 800px) {
+	
+	header {
+		text-align: left;
+	}
+
+	body {
+		background-color: blue;
+	}
+
+	nav {
+		float: left;
+		width: 20%;
+	}
+
+	nav li {
+		display: blocks;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	#main {
+		float: right;
+		width: 70%;
+	}
+}
+
+
+@media screen and (min-width: 1200px) {
+	.wrapper {
+		max-width: 1100px;
+	}
+}

@@ -1,0 +1,106 @@
+Template:
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Discoveryvip.com">
+
+		<title>First Website</title>
+
+	</head>
+
+
+	<body>
+		
+		<div class="wrapper">
+			
+
+		</div>
+		
+
+	</body>
+
+</html>
+
+============================================================================
+
+
++ create a wrapper to have the contents fixed in one width, even when the screen
+size changes, the wrapper is still there in fixed width
+
+================================================================================
+
+when you're building website and you're not sure about color, then its good idea to make it grayscale color
+
+we want padding because otherwise the text is right on the edge, and we don't want that
+
+you can add it into the main area, or just section by section
+
+in #main, set width:100% because we want to take 100% of the space
+
+=============================================================================
+
+Turn our unordered list into navigation bar
+
+
+media queries are at the bottom of your CSS
+
+
+
+@media screen and (min-width: 800px){
+	
+
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+	body {
+		background-color: red;
+	}
+}
+
+
+//technically it has to be like this, but for some reason, it doesnt work that way
+
+
+
+
+@media screen and (max-width: 800px) {
+	body {
+		background-color: blue;
+	}
+
+	nav {
+		float: left;
+		width: 20%;
+	}
+}
+
+
+
+//Sometimes media queries is set to max width instead of min width, notice this
+this means whenever you hit this threshold of screensize, the style inside
+will be apply
+
+
+
+	nav li {
+		display: blocks;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+
+
+// this is to change the nav bar into vertical instead of horizontal
+whenever the size is coming to mobile
+
+//you can import google fonts in link html but
+//you should import it with stylesheet because you're gonna be using this
+//stylesheet across multiple pages for consitency
