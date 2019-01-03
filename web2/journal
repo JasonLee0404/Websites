@@ -1,0 +1,80 @@
+//always a good idea to have a sub container inside in case we want to move something
+//around or having navigation or something like that
+
+
+<section id="home" class="section"></section>
+
+reason you're doing this is because you dont wanna identify 
+the section just using the original tag, you wanna have something
+to identify it, and it is a class name
+
+// it is common practice to present nav bar
+
+with unordered list
+
+
+nav, unordered list, anchor tags and hyperlinks, thats how
+you organise the flow of moving from pages to pages
+
+Only use one h1 for each single page, because
+thats how when the search engine come to the page, to see 
+only one h1 and its gonna rank your webpage, you don't wanna mess that up
+
+Use your wordings and tags make sense and make it easier to track
+use it wisely
+
+
+//adding article to separate the text from the background image
+
+
+<p> <img src=""> <p>
+
+//that is how you separate the image from the content, by using a separate 
+//container
+
+
+
+Font awesome, is for icons, not for fonts
+
+
+Minify version will typically load faster because there are no whitespace
+
+
+//Sticky header sections - what is it ?
+
+// why I cannot tag in sections ?
+
+
+//position:fixed give you the ability to hold one part of the website, even when the whole page is crolling
+
+=> ability to access it even though we're at the bottom
+
+max height instead of min height ?
+
+
+============================================================================
+
+
+**** Having all the elements next to each other is just a matter of floating it to the right, 
+and then have them adjusted to the left of each other, and then set up borders
+
+
+/*it takes some time for the stuff to load*/
+
+/*The project is without background image*/ - you can learn how to add that later on
+
+
+
+//When something doesnt work properly, pay attention to the order - order matters
+
+
+
+//***** Notice pay attention::: The hover function of CSS sometimes does not work properly, you have
+to bring the mouse over to the top right of the box in order to get the hover event. you can use other stuff but pay attention to this
+
+
+======================================================================================================
+
+With the second website - what you need to learn is the ability to create responsive website according to screensize using media queries, as well as using jQuery/ JavaScript to create interactions with events - scroll dynamically, react when clicked
+ 
+You also need to know how to create a mobile size menu
