@@ -1,0 +1,11 @@
+Workflow 
+
+https://medium.com/@subodhgarg/how-to-set-up-vue-js-project-in-5-easy-steps-using-vue-cli-669b1aea518b
+
++ Go into the folder of VueProject and then npm install
++ npm run dev to run the server 
+
+
+
+
+You are currently trying to make a calculator using Vue 
