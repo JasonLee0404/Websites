@@ -1,4 +1,6 @@
-Workflow 
+The app is made with the help of tutorial https://www.youtube.com/watch?v=m1_ih43p24s
+
+*** Workflow  / Setting up using Vue CLI
 
 https://medium.com/@subodhgarg/how-to-set-up-vue-js-project-in-5-easy-steps-using-vue-cli-669b1aea518b
 
@@ -6,6 +8,4 @@ https://medium.com/@subodhgarg/how-to-set-up-vue-js-project-in-5-easy-steps-usin
 + npm run dev to run the server 
 
 
-
-
-You are currently trying to make a calculator using Vue 
+*** If you see there's an error, turn off the server and restart it
