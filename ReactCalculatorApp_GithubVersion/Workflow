@@ -1,0 +1,47 @@
+This app is created following the instructions from tutorial https://www.youtube.com/watch?v=KzYUuTiHdiY
+
+*** This app is created using create-react-app -> Google it, and follow the instruction 
+
+cd inside the folder that store the app
+
+npm start to run the server
+
+
+*** Using Visual Studio Code as your main IDE since it has a lot of auto completion
+
+*** Steps for editing files:
+
++ get rid of the logo (logo.svg)
++ get rid of .test file
++ get rid of import logo in App.js
++ get rid of all the stuff inside the biggest div in App.js
+
++ get rid of all css in app.css
+
++ you can also start the server with yarn start or npm start
+
+====================================================================================================
+
+` ` this is called the back text, used for inserting things inside the { }
+
+
+
+Multi cursor in Visual Studio Code: select all of the Button, then control + D or command + D
+
+*** handleClick and onClick in React has to go together ? 
+
+handleClick in App.js file and onClick in the component file ?
+
+What does props.childrem mean in React ?
+
+
+======================================================================================================
+
+
+handleClick is used to add numbers
+handleClear is used to clear the screen
+
+You can also change your file name to App.jsx
+
+npm install mathjs to install the calculator app
+
